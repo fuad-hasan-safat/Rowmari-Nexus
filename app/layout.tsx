@@ -23,12 +23,26 @@ export const metadata: Metadata = {
   keywords: ["Rowmari", "Kurigram", "Rangpur", "Bangladesh", "Fuad", "Safat"],
   authors: [{ name: "Fuad" }, { name: "Safat" }],
   openGraph: {
-    title: "Rowmari, Kurigram - The Heart of Rangpur",
-    description: "Explore Rowmari and Kurigram with Fuad and Safat.",
-    url: "https://rowmari-nexus.vercel.app",
-    siteName: "Rowmari Hub",
-    locale: "en_BN",
     type: "website",
+    url: "https://rowmari-nexus.vercel.app",
+    title: "Rowmari Upazila Portal",
+    description: "The definitive guide to Rowmari, Kurigram, and Rangpur.",
+    siteName: "Rowmari Nexus",
+    images: [
+      {
+        url: "https://rowmari-nexus.vercel.app/banner/rowmari_hero.png",
+        width: 1200,
+        height: 630,
+        alt: "Rowmari Bangladesh Landscape",
+      },
+    ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Rowmari Upazila Portal",
+    description: "Discover Rowmari, Kurigram জেলার ইতিহাস ও তথ্য।",
+    images: ["https://rowmari-nexus.vercel.app/banner/rowmari_hero.png"],
   },
 };
 
@@ -41,7 +55,7 @@ export default function RootLayout({
     <html lang="bn">
       <body className="flex flex-col min-h-screen">
         {/* Navigation could go here too */}
-        <Navbar/>
+        <Navbar />
         <main className="flex-grow">
           {children}
         </main>
