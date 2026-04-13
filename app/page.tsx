@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://rowmari-nexus.vercel.app"),
@@ -118,6 +119,7 @@ export default function Page() {
       />
 
       {/* --- Modern Hero Banner --- */}
+      <Link href="/history-heritage">
       <div className="relative w-full overflow-hidden h-[25vh] md:h-[70vh]">
         <Image
           src="/banner/rowmari_hero.png"
@@ -130,6 +132,7 @@ export default function Page() {
         {/* ওভারলে – ডার্ক মোডে একই থাকবে (স্বচ্ছ কালো) */}
         <div className="absolute inset-0 bg-black/40" />
       </div>
+      </Link>
 
       {/* --- Under Construction Animation (ডার্ক থিম সাপোর্টসহ) --- */}
       <div className="relative overflow-hidden bg-gradient-to-br from-yellow-50 via-white to-orange-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 py-12 md:py-20 transition-colors duration-300">
