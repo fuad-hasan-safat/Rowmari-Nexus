@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
+import RoumariLogo from "./SVG/RowmariLogo";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -28,12 +29,13 @@ export default function Navbar() {
   ];
 
   return (
-    <header className="sticky top-0 z-50 w-full bg-white/80 backdrop-blur-md border-b border-gray-200  transition-colors duration-300">
+    <header className="sticky top-0 z-50 w-full bg-white/80 dark:bg-gray-900/80 backdrop-blur-md border-b border-gray-200  transition-colors duration-300">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16 md:h-20">
           {/* লোগো / ব্র্যান্ড */}
           <Link href="/" className="flex items-center space-x-2">
-           <Image src="/logo/rowmari_logo.png" alt="Rowmari Logo" width={160} height={32} className="rounded-full" />
+            <RoumariLogo className="w-36 text-green-700 dark:text-white" />
+           {/* <Image src="/logo/rowmari_logo.png" alt="Rowmari Logo" width={160} height={32} className="rounded-full" /> */}
           </Link>
 
           {/* ডেস্কটপ নেভিগেশন */}
