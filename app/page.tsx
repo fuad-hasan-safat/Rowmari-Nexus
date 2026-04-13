@@ -1,6 +1,76 @@
+import { Metadata } from "next";
 import Image from "next/image";
 
+  export const metadata: Metadata = {
+  metadataBase: new URL("https://rowmari-nexus.vercel.app"),
+
+  title: {
+    default: "Rowmari Upazila Portal",
+    template: "%s | Rowmari Nexus",
+  },
+
+  description:
+    "Explore Rowmari Upazila, Kurigram, Rangpur. ইতিহাস, সংস্কৃতি, ভৌগোলিক তথ্য ও সম্পূর্ণ গাইড।",
+
+  keywords: [
+    "Rowmari",
+    "Kurigram",
+    "Rangpur",
+    "Bangladesh",
+    "Rowmari history",
+    "রৌমারী",
+  ],
+
+  authors: [{ name: "Fuad Hasan Safat" }],
+  creator: "Rowmari Hub",
+
+  openGraph: {
+    type: "website",
+    url: "https://rowmari-nexus.vercel.app",
+    title: "Rowmari Upazila Portal",
+    description:
+      "The definitive guide to Rowmari, Kurigram, and Rangpur.",
+
+    siteName: "Rowmari Nexus",
+
+    images: [
+      {
+        url: "/banner/rowmari_hero.png",
+        width: 1200,
+        height: 630,
+        alt: "Rowmari Bangladesh Landscape",
+      },
+    ],
+
+    locale: "en_US",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Rowmari Upazila Portal",
+    description:
+      "Discover Rowmari, Kurigram জেলার ইতিহাস ও তথ্য।",
+    images: ["/banner/rowmari_hero.png"],
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+
+  alternates: {
+    canonical: "https://rowmari-nexus.vercel.app",
+  },
+};
+
 export default function Page() {
+
   const homeJsonLd = {
     "@context": "https://rowmari-nexus.vercel.app/#context",
     "@graph": [
