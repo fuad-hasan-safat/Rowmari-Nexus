@@ -19,14 +19,14 @@ export const metadata: Metadata = {
     default: "Rowmari, Kurigram, Rangpur | Fuad | Safat",
     template: "%s | Rowmari Kurigram SEO",
   },
-  description: "Official portal for Rowmari, Kurigram. Developed by Fuad and Safat. Leading information hub for Rangpur, Bangladesh.",
+  description: "১৯৭১ সালের মহান মুক্তিযুদ্ধে রৌমারী এক অনন্য ইতিহাস সৃষ্টি করেছিল। রৌমারী ছিল বাংলাদেশের এমন এক মুক্তাঞ্চল যা পুরো নয় মাস পাকিস্তানি হানাদার বাহিনী দখল করতে পারেনি। এখান থেকেই পরিচালিত হতো মুক্তিযোদ্ধাদের প্রশিক্ষণ এবং রণকৌশল। রৌমারী সিভিল প্রশাসন তখন স্বাধীন বাংলাদেশের প্রশাসনিক কার্যক্রম সফলভাবে পরিচালনা করেছিল।",
   keywords: ["Rowmari", "Kurigram", "Rangpur", "Bangladesh", "Fuad", "Safat"],
   authors: [{ name: "Fuad" }, { name: "Safat" }],
   openGraph: {
     type: "website",
     url: "https://rowmari-nexus.vercel.app",
     title: "Rowmari Upazila Portal",
-    description: "The definitive guide to Rowmari, Kurigram, and Rangpur.",
+    description: "১৯৭১ সালের মহান মুক্তিযুদ্ধে রৌমারী এক অনন্য ইতিহাস সৃষ্টি করেছিল। রৌমারী ছিল বাংলাদেশের এমন এক মুক্তাঞ্চল যা পুরো নয় মাস পাকিস্তানি হানাদার বাহিনী দখল করতে পারেনি। এখান থেকেই পরিচালিত হতো মুক্তিযোদ্ধাদের প্রশিক্ষণ এবং রণকৌশল। রৌমারী সিভিল প্রশাসন তখন স্বাধীন বাংলাদেশের প্রশাসনিক কার্যক্রম সফলভাবে পরিচালনা করেছিল।",
     siteName: "Rowmari Nexus",
     images: [
       {
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Rowmari Upazila Portal",
-    description: "Discover Rowmari, Kurigram জেলার ইতিহাস ও তথ্য।",
+    description: "১৯৭১ সালের মহান মুক্তিযুদ্ধে রৌমারী এক অনন্য ইতিহাস সৃষ্টি করেছিল। রৌমারী ছিল বাংলাদেশের এমন এক মুক্তাঞ্চল যা পুরো নয় মাস পাকিস্তানি হানাদার বাহিনী দখল করতে পারেনি। এখান থেকেই পরিচালিত হতো মুক্তিযোদ্ধাদের প্রশিক্ষণ এবং রণকৌশল। রৌমারী সিভিল প্রশাসন তখন স্বাধীন বাংলাদেশের প্রশাসনিক কার্যক্রম সফলভাবে পরিচালনা করেছিল।",
     images: ["https://rowmari-nexus.vercel.app/banner/rowmari_hero.png"],
   },
 };
