@@ -78,7 +78,7 @@ export default function Navbar() {
         {isMenuOpen && (
           <div className="md:hidden py-4 border-t border-gray-200 dark:border-gray-700">
             <div className="flex flex-col space-y-3">
-              {/* {navItems.map((item) => (
+              {navItems.map((item) => (
                 <Link
                   key={item.name}
                   href={item.href}
@@ -92,7 +92,7 @@ export default function Navbar() {
                   {item.name}
                 </Link>
               ))}
-              */}
+             
               <div className="inline-flex items-center gap-2 px-5 py-2 rounded-full bg-gradient-to-r from-purple-500/20 to-pink-500/20 backdrop-blur-sm border border-purple-500/30 shadow-lg"><span className="animate-pulse text-purple-500">✨</span><span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent font-bold">Will come soon...</span><span className="animate-bounce text-pink-500">⏳</span></div>
             </div>
           </div>
