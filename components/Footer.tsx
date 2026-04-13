@@ -50,8 +50,7 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-3">Quick Links</h3>
             <ul className="space-y-2 text-sm">
-              <li><Link href="/about" className="text-gray-600 dark:text-gray-400 hover:text-green-600 dark:hover:text-green-400 transition">About Rowmari</Link></li>
-              <li><Link href="/history" className="text-gray-600 dark:text-gray-400 hover:text-green-600 dark:hover:text-green-400 transition">History & Heritage</Link></li>
+              <li><Link href="/history-heritage" className="text-gray-600 dark:text-gray-400 hover:text-green-600 dark:hover:text-green-400 transition">History & Heritage</Link></li>
               <li><Link href="/blog" className="text-gray-600 dark:text-gray-400 hover:text-green-600 dark:hover:text-green-400 transition">Blog</Link></li>
               <li><Link href="/contact" className="text-gray-600 dark:text-gray-400 hover:text-green-600 dark:hover:text-green-400 transition">Contact Us</Link></li>
             </ul>

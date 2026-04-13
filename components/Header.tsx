@@ -22,10 +22,10 @@ export default function Navbar() {
 
   // মেনু আইটেম
   const navItems = [
-    { name: "About", href: "/about" },
-    { name: "Fuad", href: "/fuad" },
-    { name: "History", href: "/history" },
-    { name: "Blog", href: "/blog" },
+    { name: "ইতিহাস ও ঐতিহ্য", href: "/history-heritage" },
+    // { name: "Fuad", href: "/fuad" },
+    // { name: "History", href: "/history" },
+    // { name: "Blog", href: "/blog" },
   ];
 
   return (
@@ -40,7 +40,7 @@ export default function Navbar() {
 
           {/* ডেস্কটপ নেভিগেশন */}
           <div className="hidden md:flex items-center space-x-8">
-            {/* {navItems.map((item) => (
+            {navItems.map((item) => (
               <Link
                 key={item.name}
                 href={item.href}
@@ -52,7 +52,7 @@ export default function Navbar() {
               >
                 {item.name}
               </Link>
-            ))} */}
+            ))}
 
              <div className="inline-flex items-center gap-2 px-5 py-2 rounded-full bg-gradient-to-r from-purple-500/20 to-pink-500/20 backdrop-blur-sm border border-purple-500/30 shadow-lg"><span className="animate-pulse text-purple-500">✨</span><span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent font-bold">Will come soon...</span><span className="animate-bounce text-pink-500">⏳</span></div>
        
