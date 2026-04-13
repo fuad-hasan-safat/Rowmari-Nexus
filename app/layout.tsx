@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Rowmari, Kurigram - The Heart of Rangpur",
     description: "Explore Rowmari and Kurigram with Fuad and Safat.",
-    url: "https://yourdomain.com",
+    url: "https://rowmari-nexus.vercel.app",
     siteName: "Rowmari Hub",
     locale: "en_BN",
     type: "website",

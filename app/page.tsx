@@ -7,20 +7,20 @@ export default function Page() {
       // 1. Identify the Website and Search Capability
       {
         "@type": "WebSite",
-        "@id": "https://yourdomain.com/#website",
-        "url": "https://yourdomain.com",
+        "@id": "https://rowmari-nexus.vercel.app/#website",
+        "url": "https://rowmari-nexus.vercel.app",
         "name": "Rowmari Upazila Portal",
         "description": "The definitive guide to Rowmari, Kurigram, and Rangpur.",
-        "publisher": { "@id": "https://yourdomain.com/#organization" }
+        "publisher": { "@id": "https://rowmari-nexus.vercel.app/#organization" }
       },
       // 2. Identify the Geographical Location (Rowmari)
       {
         "@type": "AdministrativeArea",
-        "@id": "https://yourdomain.com/#location",
+        "@id": "https://rowmari-nexus.vercel.app/#location",
         "name": "Rowmari Upazila",
         "alternateName": "Raumari",
         "description": "A prominent Upazila of Kurigram District in the Rangpur Division of Bangladesh.",
-        "image": "https://yourdomain.com/images/rowmari-banner.jpg", // Your banner URL
+        "image": "https://rowmari-nexus.vercel.app/banner/rowmari_hero.png", // Your banner URL
         "address": {
           "@type": "5460:PostalAddress",
           "addressLocality": "Rowmari",
@@ -36,18 +36,13 @@ export default function Page() {
       // 3. Identify the Creators (Fuad and Safat)
       {
         "@type": "Organization",
-        "@id": "https://yourdomain.com/#organization",
+        "@id": "https://rowmari-nexus.vercel.app/#organization",
         "name": "Rowmari Hub",
         "founder": [
           {
             "@type": "Person",
-            "name": "Fuad Hasan",
-            "url": "https://yourdomain.com/about-fuad"
-          },
-          {
-            "@type": "Person",
-            "name": "Safat",
-            "url": "https://yourdomain.com/about-safat"
+            "name": "Fuad Hasan safat",
+            "url": "https://rowmari-nexus.vercel.app/about-fuad-safat"
           }
         ]
       }
