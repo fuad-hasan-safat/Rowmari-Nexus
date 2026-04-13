@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Fuad & Safat | Rowmari, Kurigram, Rangpur",
+    default: "Rowmari, Kurigram, Rangpur | Fuad | Safat",
     template: "%s | Rowmari Kurigram SEO",
   },
   description: "Official portal for Rowmari, Kurigram. Developed by Fuad and Safat. Leading information hub for Rangpur, Bangladesh.",
