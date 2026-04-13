@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌍 Rowmari Upazila Portal
 
-## Getting Started
+[![Next.js](https://img.shields.io/badge/Next.js-16-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-blue?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
+[![SEO Optimized](https://img.shields.io/badge/SEO-Optimized-green?style=for-the-badge)](https://google.com)
 
-First, run the development server:
+An ultra-fast, modern web portal dedicated to **Rowmari, Kurigram**. Built with **Next.js 16** using the latest App Router, focusing on extreme SEO performance to rank #1 for local search queries in Bangladesh.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Vision
+The goal of this project is to create a digital identity for **Rowmari Upazila**. It is engineered to appear at the top of search results for keywords like:
+`Rowmari`, `Kurigram`, `Rangpur`, `Bangladesh`, `Fuad Hasan`, and `Safat`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ✨ Key Features
+- **⚡ Next.js 16 (Turbopack):** Blazing fast development and build speeds.
+- **🔍 Advanced SEO:** Integrated JSON-LD Schema (Organization, AdministrativeArea, and Person) for rich search snippets.
+- **🎨 Modern UI:** A sleek, responsive hero banner with glassmorphism effects.
+- **🇧🇩 Bilingual Content:** Native Bangla support for historical context and local reach.
+- **📱 Fully Responsive:** Optimized for everything from mobile phones to ROG Zephyrus displays.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Tech Stack
+- **Framework:** Next.js 16 (App Router)
+- **Styling:** Tailwind CSS
+- **Optimization:** Next/Image & Next/Font
+- **SEO:** Schema.org JSON-LD Structured Data
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📂 Project Structure
+```text
+├── app/
+│   ├── layout.tsx     # Global structure & common Footer
+│   ├── page.tsx       # SEO-optimized Home with Rowmari History
+│   └── globals.css    # Tailwind & custom styles
+├── components/
+│   └── Footer.tsx     # Centralized Footer (Authored by Fuad & Safat)
+└── public/
+    └── banner/rowmari_hero.png
