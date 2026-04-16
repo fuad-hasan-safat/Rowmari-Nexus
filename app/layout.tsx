@@ -24,13 +24,13 @@ export const metadata: Metadata = {
   authors: [{ name: "Fuad" }, { name: "Safat" }],
   openGraph: {
     type: "website",
-    url: "https://rowmari-nexus.vercel.app",
+    url: "https://rowmari.pro.bd/",
     title: "Rowmari Upazila Portal",
     description: "১৯৭১ সালের মহান মুক্তিযুদ্ধে রৌমারী এক অনন্য ইতিহাস সৃষ্টি করেছিল। রৌমারী ছিল বাংলাদেশের এমন এক মুক্তাঞ্চল যা পুরো নয় মাস পাকিস্তানি হানাদার বাহিনী দখল করতে পারেনি। এখান থেকেই পরিচালিত হতো মুক্তিযোদ্ধাদের প্রশিক্ষণ এবং রণকৌশল। রৌমারী সিভিল প্রশাসন তখন স্বাধীন বাংলাদেশের প্রশাসনিক কার্যক্রম সফলভাবে পরিচালনা করেছিল।",
     siteName: "Rowmari Nexus",
     images: [
       {
-        url: "https://rowmari-nexus.vercel.app/banner/rowmari_hero.png",
+        url: "https://rowmari.pro.bd/banner/rowmari_hero.png",
         width: 1200,
         height: 630,
         alt: "Rowmari Bangladesh Landscape",
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Rowmari Upazila Portal",
     description: "১৯৭১ সালের মহান মুক্তিযুদ্ধে রৌমারী এক অনন্য ইতিহাস সৃষ্টি করেছিল। রৌমারী ছিল বাংলাদেশের এমন এক মুক্তাঞ্চল যা পুরো নয় মাস পাকিস্তানি হানাদার বাহিনী দখল করতে পারেনি। এখান থেকেই পরিচালিত হতো মুক্তিযোদ্ধাদের প্রশিক্ষণ এবং রণকৌশল। রৌমারী সিভিল প্রশাসন তখন স্বাধীন বাংলাদেশের প্রশাসনিক কার্যক্রম সফলভাবে পরিচালনা করেছিল।",
-    images: ["https://rowmari-nexus.vercel.app/banner/rowmari_hero.png"],
+    images: ["https://rowmari.pro.bd/banner/rowmari_hero.png"],
   },
 };
 

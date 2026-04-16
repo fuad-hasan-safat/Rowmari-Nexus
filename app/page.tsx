@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://rowmari-nexus.vercel.app"),
+  metadataBase: new URL("https://rowmari.pro.bd/"),
 
   title: {
     default: "Rowmari Upazila Portal",
@@ -27,13 +27,13 @@ export const metadata: Metadata = {
 
   openGraph: {
     type: "website",
-    url: "https://rowmari-nexus.vercel.app",
+    url: "https://rowmari.pro.bd/",
     title: "Rowmari Upazila Portal",
     description: "The definitive guide to Rowmari, Kurigram, and Rangpur.",
     siteName: "Rowmari Nexus",
     images: [
       {
-        url: "https://rowmari-nexus.vercel.app/banner/rowmari_hero.png",
+        url: "https://rowmari.pro.bd/banner/rowmari_hero.png",
         width: 1200,
         height: 630,
         alt: "Rowmari Bangladesh Landscape",
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Rowmari Upazila Portal",
     description: "Discover Rowmari, Kurigram জেলার ইতিহাস ও তথ্য।",
-    images: ["https://rowmari-nexus.vercel.app/banner/rowmari_hero.png"],
+    images: ["https://rowmari.pro.bd/banner/rowmari_hero.png"],
   },
 
   robots: {
@@ -60,30 +60,30 @@ export const metadata: Metadata = {
   },
 
   alternates: {
-    canonical: "https://rowmari-nexus.vercel.app",
+    canonical: "https://rowmari.pro.bd/",
   },
 };
 
 export default function Page() {
 
   const homeJsonLd = {
-    "@context": "https://rowmari-nexus.vercel.app/#context",
+    "@context": "https://rowmari.pro.bd/#context",
     "@graph": [
       {
         "@type": "WebSite",
-        "@id": "https://rowmari-nexus.vercel.app/#website",
-        "url": "https://rowmari-nexus.vercel.app",
+        "@id": "https://rowmari.pro.bd/#website",
+        "url": "https://rowmari.pro.bd/",
         "name": "Rowmari Upazila Portal",
         "description": "The definitive guide to Rowmari, Kurigram, and Rangpur.",
-        "publisher": { "@id": "https://rowmari-nexus.vercel.app/#organization" }
+        "publisher": { "@id": "https://rowmari.pro.bd/#organization" }
       },
       {
         "@type": "AdministrativeArea",
-        "@id": "https://rowmari-nexus.vercel.app/#location",
+        "@id": "https://rowmari.pro.bd/#location",
         "name": "Rowmari Upazila",
         "alternateName": "Raumari",
         "description": "A prominent Upazila of Kurigram District in the Rangpur Division of Bangladesh.",
-        "image": "https://rowmari-nexus.vercel.app/banner/rowmari_hero.png",
+        "image": "https://rowmari.pro.bd/banner/rowmari_hero.png",
         "address": {
           "@type": "5460:PostalAddress",
           "addressLocality": "Rowmari",
@@ -98,13 +98,13 @@ export default function Page() {
       },
       {
         "@type": "Organization",
-        "@id": "https://rowmari-nexus.vercel.app/#organization",
+        "@id": "https://rowmari.pro.bd/#organization",
         "name": "Rowmari Hub",
         "founder": [
           {
             "@type": "Person",
             "name": "Fuad Hasan safat",
-            "url": "https://rowmari-nexus.vercel.app/about-fuad-safat"
+            "url": "https://rowmari.pro.bd/about-fuad-safat"
           }
         ]
       }

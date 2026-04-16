@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     title: "রৌমারীর ঐতিহাসিক বিবর্তন",
     description:
       "কুড়িগ্রাম জেলার ব্রহ্মপুত্র নদ বিচ্ছিন্ন এক দুর্গম অথচ রণকৌশলগতভাবে অত্যন্ত গুরুত্বপূর্ণ জনপদ রৌমারী। এর ইতিহাস কেবল কিছু সন-তারিখের সমষ্টি নয়, বরং এটি এই অঞ্চলের মানুষের টিকে থাকার লড়াই, ভৌগোলিক বিচ্ছিন্নতাকে শক্তিতে রূপান্তর এবং জাতীয় সার্বভৌমত্ব রক্ষার এক অবিরাম মহাকাব্য।",
-    url: "https://rowmari-nexus.vercel.app/history-heritage",
+    url: "https://rowmari.pro.bd/history-heritage",
     siteName: "Rowmari Nexus",
     type: "article",
     images: [
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   },
 
   alternates: {
-    canonical: "https://rowmari-nexus.vercel.app/history-heritage",
+    canonical: "https://rowmari.pro.bd/history-heritage",
   },
 
   robots: {
@@ -49,13 +49,13 @@ export const metadata: Metadata = {
 
 export default function Page() {
   const jsonLd = {
-    "@context": "https://schema.org",
+    "@context": "https://rowmari.pro.bd/",
     "@type": "Article",
     headline: "রৌমারীর ঐতিহাসিক বিবর্তন",
     description:
       "কুড়িগ্রাম জেলার ব্রহ্মপুত্র নদ বিচ্ছিন্ন এক দুর্গম অথচ রণকৌশলগতভাবে অত্যন্ত গুরুত্বপূর্ণ জনপদ রৌমারী। এর ইতিহাস কেবল কিছু সন-তারিখের সমষ্টি নয়, বরং এটি এই অঞ্চলের মানুষের টিকে থাকার লড়াই, ভৌগোলিক বিচ্ছিন্নতাকে শক্তিতে রূপান্তর এবং জাতীয় সার্বভৌমত্ব রক্ষার এক অবিরাম মহাকাব্য।",
     image:
-      "https://rowmari-nexus.vercel.app/banner/history_banner.png",
+      "https://rowmari.pro.bd/banner/history_banner.png",
     author: {
       "@type": "Person",
       name: "Fuad Hasan Safat",
